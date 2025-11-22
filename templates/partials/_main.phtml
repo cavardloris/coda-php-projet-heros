@@ -1,0 +1,65 @@
+
+<?php
+    $choix = $_GET['choix'] ?? null;
+    if($choix === "1-1")
+    {
+        require "templates/partials/choix1-1.phtml";
+    }
+    elseif($choix === "1-2")
+    {
+        require "templates/partials/choix2.phtml";
+    }
+    elseif($choix === "1")
+    {
+        require "templates/partials/choix1.phtml";
+    }
+    elseif($choix === "2")
+    {
+        require "templates/partials/choix2.phtml";
+    }
+    elseif($choix === "3")
+    {
+        require "templates/partials/choix3.phtml";
+    }
+    else{
+   ?>
+   <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bienvenue dans l'histoire de votre héros</h1>
+    <br>
+    <br>
+    <p>Bonjour, vous allez incarner un chevalier qui a pour <br>
+        objectif de rejoindre le chateau de sa princesse situé à 3km de sa position. <br>
+        Il va devoir affronter plusieurs obstacles sur sa route pour pouvoir rejoindre la princesse</p><br> <br><br>
+        <p>Le chevalier démarre du haut d'une montagne. Il a le choix entre 3 chemins. <br>
+    - Le premier chemin lui permet de se rapprocher de 1 km : Choix 1 <br>
+    -L'autre lui permet de parcourir 1,5km mais est assez dangereux : Choix 2 <br>
+    -Le dernier lui permet de parcourir 2km mais il est vraiment dangereux : Choix 3</p>
+    
+    <form method= "get" action="index.php">
+        <fieldset>
+            <label for="colorChoice">
+                choix
+            </label>
+            <select name="choix" id="choixHistoire">
+                <option value="1">Choix 1</option>
+                <option value="2">Choix 2</option>
+                <option value="3">Choix 3</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <button type="submit">recherche</button>
+        </fieldset>
+    </form>
+    <?php
+    }
+    ?>
+</body>
+</html> 

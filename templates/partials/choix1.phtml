@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+   <h2> Vous êtes maintenant à 2 km du chateau de la princesse</h2>
+   <br> <br>
+    <p> Le chevalier a maintenant le choix entre 2 passages pour atteindre le chateau <br>
+    -Soit il passe par la foret : Choix 1 <br>
+    -Soit il passe par une grande plaine : Choix 2</p>
+    <form method= "get" action="index.php">
+        <fieldset>
+            <label for="colorChoice">
+                choix
+            </label>
+            <select name="choix" id="choixHistoire">
+                <option value="1-1">Choix 1</option>
+                <option value="1-2">Choix 2</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <button type="submit">recherche</button>
+        </fieldset>
+    </form>
+</body>
