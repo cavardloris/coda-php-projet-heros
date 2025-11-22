@@ -17,4 +17,6 @@ Aide de claude ai pour
 
    "Warning: Undefined array key "choix" in C:\xampp\htdocs\PHP\coda-php-projet-heros\templates\partials\_main.phtml" Ligne de code donnée par claude pour corriger le warning: 
    "$choix = $_GET['choix'] ?? null;"
+
+   Claude ai me donne l'idée de mettre toute mes conditions dans le fichier main.phtml
     
