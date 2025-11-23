@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Vous êtes maintenant à 1,5 km du chateau de la princesse</h2> 
+    <br> <br>
+    <p>Malheureusement en choisissant ce chemin, le chevalier s'est bléssé au pied et ne peut plus courir,
+       cependant vous êtes maintenant arrivé en bas de la montagne. <br> Vous avez désormais le choix entre 2 chemins qui mènent directement au chateau de la princesse . <br><br>
+        - Le premier chemin est un sentier qui traverse un enclos à cochon. Cependant si vous vous faites courser par un cochon, vous ne pouvez pas courir : Choix 1 <br>
+        -Le deuxième chemin passe par une forée sombre, ayant pour réputation d'être hantée : Choix 2
+    </p>
+    <form method= "get" action="index.php">
+        <fieldset>
+            <label for="colorChoice">
+                choix
+            </label>
+            <select name="choix" id="choixHistoire">
+                <option value="2-1">Choix 1</option>
+                <option value="2-2">Choix 2</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <button type="submit">recherche</button>
+        </fieldset>
+    </form>
+</body>
+</html>
