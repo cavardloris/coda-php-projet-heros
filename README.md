@@ -19,4 +19,6 @@ Aide de claude ai pour
    "$choix = $_GET['choix'] ?? null;"
 
    Claude ai me donne l'idée de mettre toute mes conditions dans le fichier main.phtml
+
+   Le CSS est fait principalement avec chat gpt, son objectif etant de rendre le travail réalisé en amont, plus agréable a regarder ( le but ici etant de realiser l'histoire et non pas de faire la plus belle histoire).  Le prompt: Fait moi un css simple qui s'applique sur toutes les pages juste pour rendre l'histoire plus sympa pour l'utilisateur. (ajout du dossier du projet en ZIP)
     

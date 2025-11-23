@@ -4,11 +4,91 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-html {
-    font-size: 18px;
-    font-family: "Montserrat";
-    text-align: center;
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background: #f5f1e8;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
 }
+
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4c2c1f;
+}
+
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #7b3f00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5a2e00;
+}
+
+.section-choix {
+    margin-top: 40px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+img {
+    display: block;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+
 
